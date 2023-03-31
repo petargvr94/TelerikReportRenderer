@@ -1,0 +1,240 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "TelerikReportRenderer/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": "7.0.0",
+          "System.Configuration.ConfigurationManager": "8.0.0-preview.2.23128.3",
+          "System.Drawing.Common": "8.0.0-preview.2.23128.3",
+          "System.IO.Packaging": "8.0.0-preview.2.23128.3",
+          "System.Windows.Forms.DataVisualization": "1.0.0-prerelease.20110.1",
+          "Telerik.Reporting": "17.0.23.315",
+          "Telerik.ReportViewer.WinForms": "17.0.23.315"
+        },
+        "runtime": {
+          "TelerikReportRenderer.dll": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection/7.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/7.0.0": {
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51805"
+          }
+        }
+      },
+      "Microsoft.Win32.SystemEvents/8.0.0-preview.2.23128.3": {
+        "runtime": {
+          "lib/net6.0/Microsoft.Win32.SystemEvents.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.12803"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.12803"
+          }
+        }
+      },
+      "System.Configuration.ConfigurationManager/8.0.0-preview.2.23128.3": {
+        "dependencies": {
+          "System.Security.Cryptography.ProtectedData": "8.0.0-preview.2.23128.3",
+          "System.Security.Permissions": "8.0.0-preview.2.23128.3"
+        },
+        "runtime": {
+          "lib/net6.0/System.Configuration.ConfigurationManager.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.12803"
+          }
+        }
+      },
+      "System.Drawing.Common/8.0.0-preview.2.23128.3": {
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "8.0.0-preview.2.23128.3"
+        },
+        "runtime": {
+          "lib/net6.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.12803"
+          }
+        }
+      },
+      "System.IO.Packaging/8.0.0-preview.2.23128.3": {
+        "runtime": {
+          "lib/net6.0/System.IO.Packaging.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.12803"
+          }
+        }
+      },
+      "System.Security.Cryptography.ProtectedData/8.0.0-preview.2.23128.3": {
+        "runtime": {
+          "lib/net6.0/System.Security.Cryptography.ProtectedData.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.12803"
+          }
+        }
+      },
+      "System.Security.Permissions/8.0.0-preview.2.23128.3": {
+        "dependencies": {
+          "System.Windows.Extensions": "8.0.0-preview.2.23128.3"
+        },
+        "runtime": {
+          "lib/net6.0/System.Security.Permissions.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.12803"
+          }
+        }
+      },
+      "System.Windows.Extensions/8.0.0-preview.2.23128.3": {
+        "dependencies": {
+          "System.Drawing.Common": "8.0.0-preview.2.23128.3"
+        },
+        "runtime": {
+          "lib/net6.0/System.Windows.Extensions.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.12803"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net6.0/System.Windows.Extensions.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.12803"
+          }
+        }
+      },
+      "System.Windows.Forms.DataVisualization/1.0.0-prerelease.20110.1": {
+        "runtime": {
+          "lib/netcoreapp3.0/System.Windows.Forms.DataVisualization.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.20.11001"
+          }
+        }
+      },
+      "Telerik.Reporting/17.0.23.315": {
+        "runtime": {
+          "Telerik.Reporting.dll": {
+            "assemblyVersion": "17.0.23.315",
+            "fileVersion": "17.0.23.315"
+          }
+        }
+      },
+      "Telerik.ReportViewer.WinForms/17.0.23.315": {
+        "runtime": {
+          "Telerik.ReportViewer.WinForms.dll": {
+            "assemblyVersion": "17.0.23.315",
+            "fileVersion": "17.0.23.315"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TelerikReportRenderer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Extensions.DependencyInjection/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-elNeOmkeX3eDVG6pYVeV82p29hr+UKDaBhrZyWvWLw/EVZSYEkZlQdkp0V39k/Xehs2Qa0mvoCvkVj3eQxNQ1Q==",
+      "path": "microsoft.extensions.dependencyinjection/7.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-h3j/QfmFN4S0w4C2A6X7arXij/M/OVw3uQHSOFxnND4DyAzO1F9eMX7Eti7lU/OkSthEE0WzRsfT/Dmx86jzCw==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/7.0.0",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+    },
+    "Microsoft.Win32.SystemEvents/8.0.0-preview.2.23128.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2ugSY6UuqJfYhvVUaf4ueuUiMjIyN9dU03wpbKfRDsn13XvZ91yOlw7NLhYvB1Xc8gCAZpND20Tgbe3uBVytKA==",
+      "path": "microsoft.win32.systemevents/8.0.0-preview.2.23128.3",
+      "hashPath": "microsoft.win32.systemevents.8.0.0-preview.2.23128.3.nupkg.sha512"
+    },
+    "System.Configuration.ConfigurationManager/8.0.0-preview.2.23128.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JGzbYVZrGWUSLXUqarPyjkmJpRU2xThmEKZXTzacpKG8pzF8+GNwEKvNkhCRtu8D3+cp0nM677HUoQ9v8E3vqw==",
+      "path": "system.configuration.configurationmanager/8.0.0-preview.2.23128.3",
+      "hashPath": "system.configuration.configurationmanager.8.0.0-preview.2.23128.3.nupkg.sha512"
+    },
+    "System.Drawing.Common/8.0.0-preview.2.23128.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kTEwdz83KrBKPVWEcrF4OGqLeJ6aK7jsPWBp/hX7ngT8BCvWLKAaBd5HZ4cmux0t7k5Lka/B/DqmKC8jc8TrOQ==",
+      "path": "system.drawing.common/8.0.0-preview.2.23128.3",
+      "hashPath": "system.drawing.common.8.0.0-preview.2.23128.3.nupkg.sha512"
+    },
+    "System.IO.Packaging/8.0.0-preview.2.23128.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ysh4FoxAqlnFeKAxB2pwmKv/OZTghlEnJgB+cIcsIsEp1g9MawOHhZy1HwR/B88StAmxp9WSe+N6SZd/JqKYXw==",
+      "path": "system.io.packaging/8.0.0-preview.2.23128.3",
+      "hashPath": "system.io.packaging.8.0.0-preview.2.23128.3.nupkg.sha512"
+    },
+    "System.Security.Cryptography.ProtectedData/8.0.0-preview.2.23128.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MUKSO1s8n5VJUXIsbAIEjH2YVcFLXJ4A48GSdGhB8kdjqxBtpEqSa2RdAp5r98alekcBAJ269PIK4QtV3aTiHA==",
+      "path": "system.security.cryptography.protecteddata/8.0.0-preview.2.23128.3",
+      "hashPath": "system.security.cryptography.protecteddata.8.0.0-preview.2.23128.3.nupkg.sha512"
+    },
+    "System.Security.Permissions/8.0.0-preview.2.23128.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-c5HbuzSEAxx6TP55AWlVDYGTj6EZgESFdubLAw4W+RKZ92KMZAu/8aSiDKFDCG4rBfUVSaL63GJn0DmHGuIxxg==",
+      "path": "system.security.permissions/8.0.0-preview.2.23128.3",
+      "hashPath": "system.security.permissions.8.0.0-preview.2.23128.3.nupkg.sha512"
+    },
+    "System.Windows.Extensions/8.0.0-preview.2.23128.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-942pihuuu3ivEBnYmsZqmIk3DciW279peyStePNDM/WBzBN73+/ADQO4LlHzOIXDuIW48dtFzTO0378pVCZh8A==",
+      "path": "system.windows.extensions/8.0.0-preview.2.23128.3",
+      "hashPath": "system.windows.extensions.8.0.0-preview.2.23128.3.nupkg.sha512"
+    },
+    "System.Windows.Forms.DataVisualization/1.0.0-prerelease.20110.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1EdLFl/I5QobO4shpqUNslDGWTeRbpt3pLMSkiLQYzdWBDqf44/8TM5hXMtkA8ktHU80aVZYVEuxr8vJqcB1Ig==",
+      "path": "system.windows.forms.datavisualization/1.0.0-prerelease.20110.1",
+      "hashPath": "system.windows.forms.datavisualization.1.0.0-prerelease.20110.1.nupkg.sha512"
+    },
+    "Telerik.Reporting/17.0.23.315": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Telerik.ReportViewer.WinForms/17.0.23.315": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
